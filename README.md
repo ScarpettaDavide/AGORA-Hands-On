@@ -23,4 +23,11 @@ _Software Agora - 12.06.2025_
    2. Click on `Python: Select Interpreter`
    3. Select the new created `.venv`
 
+5. Set up the test environment
+   1. Go the the test icon in the left sidebar
+
+        ![alt text](image.png)
+   2. Select `Configure Python Test`
+   3. Select `PyTest` and our new `.venv` interpreter
+
 ### Ready to go! 🧬🧬🧬
