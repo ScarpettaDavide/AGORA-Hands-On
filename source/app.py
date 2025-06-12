@@ -1,7 +1,8 @@
 import streamlit as st
-from find_mutations import find_mutations
+from main import find_mutations, gc_content
 
-st.title("🧬 Cancer Mutation Finder")
+st.title("🧬 Agora Hands On!")
+st.write(" ## Mutation Finder")
 st.write("Enter a reference DNA sequence and a tumor DNA sequence to find mutations:")
 
 # Input fields for sequences
@@ -18,3 +19,7 @@ if st.button("Identify Mutations"):
     else:
         st.subheader("Found Mutations:")
         st.write("None ✅ (the sequences are identical)")
+
+st.markdown("---")
+st.write("## GC‐content Calculator")
+# Try to create your own GC content calculator app!

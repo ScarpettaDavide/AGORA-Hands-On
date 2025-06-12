@@ -1,4 +1,4 @@
-from source.find_mutations import find_mutations
+from source.main import find_mutations
 
 def test_find_mutations_single(single_mutation):
     ref, alt = single_mutation
